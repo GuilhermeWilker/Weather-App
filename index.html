@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheater</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="informacoes">
+          <h3 id="clima">Verão</h3>
+          <h1 id="cidade">Aguardando..</h1>
+        </div>
+        <div class="icone" id="icon">
+          <img src="icones/unknown.png" alt="icone climático" />
+        </div>
+      </header>
+      <section>
+        <div class="display-temperatura">
+          <h1 id="temperatura">00°</h1>
+          <p id="data">Sábado</p>
+        </div>
+        <div class="adicionais-temperatura">
+          <div class="info">
+            <img src="icones/image 3.png" />
+            <span id="wind">1.46</span>
+          </div>
+          <div class="info">
+            <img src="icones/image 1.png" />
+            <span id="humidity">20%</span>
+          </div>
+        </div>
+        <input
+          id="cidadeValue"
+          type="text"
+          placeholder="Buscar alguma cidade..."
+        />
+      </section>
+    </main>
+
+    <script type="module" src="scripts/index.js"></script>
+  </body>
+</html>

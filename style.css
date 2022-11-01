@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Bitter", serif;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 360px;
+  border: 1px solid black;
+  border-radius: 14px;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 46px;
+  margin-bottom: 86px;
+}
+#clima {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7c7c7c;
+
+  margin-bottom: 8px;
+}
+
+#cidade {
+  font-size: 31px;
+  font-weight: 500;
+}
+
+.icone {
+  width: 75px;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-temperatura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#temperatura {
+  font-size: 120px;
+  font-weight: 400;
+
+  margin-bottom: 30px;
+}
+
+#data {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.adicionais-temperatura {
+  display: flex;
+  justify-content: space-around;
+  color: #7c7c7c;
+  margin-bottom: 82px;
+}
+
+.info {
+  display: flex;
+  margin: 0 30px;
+}
+
+.info img {
+  padding-right: 8px;
+}
+
+input {
+  padding: 17px 37px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+
+  border: none;
+  background-color: #e8e8e8;
+}
+
+@media (max-width: 425px) {
+  body {
+    margin: auto;
+    width: 425px;
+
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    border: none;
+    margin-top: -100px;
+  }
+}
