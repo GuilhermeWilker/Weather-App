@@ -1,8 +1,5 @@
 # Weather-App
 
-<p align="center">
-<img width="350px" src="src/imagens/readME-images/logo-To-doToday.png">
-</p>
 <p align="center">WebApp de previsões climáticas em tempo real.</p>
 <br />
   
@@ -18,7 +15,7 @@
 </p>
 
 <br />
-<a href="https://guilhermewilker.github.io/Todo-Today/" target="_blank">🔗Clique aqui e use agora mesmo!</a>
+<a href="https://guilhermewilker.github.io/Weather-App/" target="_blank">🔗Clique aqui e use agora mesmo!</a>
 
 ## Roadmap
 
